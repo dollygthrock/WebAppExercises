@@ -17,9 +17,9 @@ def get_name_age_number
 	final_result = [result1,result2,result3].reduce(0,&:+)
 		puts "#{name}, you are #{age} years of age, and the sum of your 3 favorite numbers is #{final_result}."
 			if final_result > age.to_i
-			puts "#{name}, at least you're younger than the sum of your favorite numbers! Way to go!!"
+			puts "#{name}, at least you're younger than the sum of your favorite numbers! Way to go!"
 		else
-			puts "Too bad #{name}, you're at least as old as the sum of your favorite numbers or way past!!! Sorry :("
+			puts "Too bad #{name}, you're at least as old as the sum of your favorite numbers or way past! Sorry:("
 		end 
 
 end
